@@ -479,7 +479,7 @@ function imprimirOrdenesConjuntas() {
       <!-- Subtotal Facturado Visible, Total Reintegro Oculto -->
       <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #cbd5e1; padding-top: 6px; margin-bottom: 15px;">
         <div style="font-size: 10px; color: #64748b;">
-          * Constancia oficial de recepción de <strong>${datosUltimoEnvio.facturas.length}</strong> comprobante(s) para su posterior evaluación y liquidación de reintegro.
+          * Constancia de recepción de <strong>${datosUltimoEnvio.facturas.length}</strong> comprobante(s) para su posterior evaluación.
         </div>
         <div style="font-size: 11px; white-space: nowrap; margin-left: 10px;">
           <strong>Total Presentado:</strong> $ ${datosUltimoEnvio.totalFacturado.toFixed(2)}
